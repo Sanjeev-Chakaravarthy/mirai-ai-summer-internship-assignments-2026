@@ -33,7 +33,7 @@ Each assignment is organized in its own folder and contains:
 | 01 | The Identity Echo Interface | Python, Streamlit | ✅ |
 | 02 | My First Streamlit Calculator | Python, Streamlit | ✅ |
 | 03 | The AI Multiverse Chatbot | Python, Streamlit, Gemini API | ✅ |
-| 04 | Coming Soon | — | ⏳ |
+| 04 | The Memory Vault (Stateful Chatbot) | Python, Streamlit, Gemini API | ✅ |
 | 05 | Coming Soon | — | ⏳ |
 | Final Project | AI Builder Project | — | ⏳ |
 
