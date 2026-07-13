@@ -14,7 +14,8 @@ mirai-ai-summer-internship-2026/
 ├── Assignments/
 │   ├── Assignment-1/   → The Identity Echo Interface
 │   ├── Assignment-2/   → My First Streamlit Calculator
-│   └── Assignment-3/   → The AI Multiverse Chatbot
+│   ├── Assignment-3/   → The AI Multiverse Chatbot
+│   └── Assignment-4/   → The Memory Vault (Stateful Chatbot)
 └── README.md
 ```
 
@@ -29,7 +30,7 @@ Each assignment is organized in its own folder and contains:
 ## 📝 Assignments
 
 | Assignment | Title | Technologies | Status |
-|:----------:|-------------------------------|--------------|:------:|
+|:----------:|---------------------------------------|-------------------------------|:------:|
 | 01 | The Identity Echo Interface | Python, Streamlit | ✅ |
 | 02 | My First Streamlit Calculator | Python, Streamlit | ✅ |
 | 03 | The AI Multiverse Chatbot | Python, Streamlit, Gemini API | ✅ |
@@ -43,7 +44,8 @@ Each assignment is organized in its own folder and contains:
 
 - Python
 - Streamlit
-- Google Gemini API
+- Google Gemini API (`google-genai`)
+- python-dotenv
 - Git & GitHub
 
 ---
@@ -58,8 +60,9 @@ Each assignment is organized in its own folder and contains:
 - Cloud Computing
 - APIs & API Keys
 - Retrieval-Augmented Generation (RAG)
-- Streamlit
+- Streamlit & Session State
 - Prompt Engineering
+- Stateful vs Stateless Applications
 - AI Application Development
 
 ---
