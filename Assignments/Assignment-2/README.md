@@ -1,24 +1,25 @@
-# Assignment 2 - My First Streamlit Calculator
+# Assignment 3 - The AI Multiverse
 
 ## Objective
 
-Build an interactive Streamlit calculator application that:
+Build an AI-powered chatbot application that:
 
-- Takes two numbers as input
-- Lets the user choose a mathematical operation
-- Displays the result instantly
-- Handles edge cases like division by zero
+- Lets users chat with different AI personalities
+- Maintains conversation history within a session
+- Integrates with the Google Gemini API
+- Manages API keys securely using environment variables
 
 ---
 
 ## Features
 
-- ✅ First Number Input
-- ✅ Second Number Input
-- ✅ Operation Selection (Add, Subtract, Multiply, Divide)
-- ✅ Result Display
-- ✅ Division by Zero Error Handling
-- ✅ Clean Streamlit Interface
+- ✅ Multiple AI Personalities (Yoda, Deadpool, Jack Sparrow, Comedian, Sherlock)
+- ✅ Persistent Conversation History (within session)
+- ✅ Sidebar for Personality Selection
+- ✅ Clear Conversation Button
+- ✅ Secure API Key Management via `.env`
+- ✅ Error Handling for API Failures
+- ✅ Clean Streamlit Chat Interface
 
 ---
 
@@ -26,17 +27,20 @@ Build an interactive Streamlit calculator application that:
 
 - Python
 - Streamlit
+- Google Gemini API (`google-genai`)
+- python-dotenv
 
 ---
 
 ## Project Structure
 
 ```text
-Assignment-2/
+Assignment-3/
 │
-├── calculator.py
+├── assignment2.py
 ├── requirements.txt
 ├── README.md
+├── .env
 └── screenshots/
 ```
 
@@ -44,9 +48,22 @@ Assignment-2/
 
 ## How to Run
 
+1. Install the required packages
+
 ```bash
 pip install -r requirements.txt
-streamlit run calculator.py
+```
+
+2. Create a `.env` file in the project folder
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY_HERE
+```
+
+3. Run the application
+
+```bash
+streamlit run assignment2.py
 ```
 
 ---
@@ -55,25 +72,30 @@ streamlit run calculator.py
 
 ### 🏠 Home Screen
 
-Displays the initial calculator interface where users can enter two numbers and select an operation.
+Displays the initial chat interface with the personality selector in the sidebar.
 
 ![Home Screen](screenshots/home.png)
 
 ---
 
-### ✅ Calculation Result
+### 💬 Conversation Example
 
-Shows the result after a valid calculation is performed.
+Shows an active conversation with one of the AI personalities.
 
-![Calculation Result](screenshots/result.png)
+![Conversation](screenshots/chat.png)
 
 ---
 
 ## Concepts Covered
 
-- Streamlit UI
-- Number Inputs
-- Selectbox / Dropdowns
-- Conditional Statements
-- Edge Case Handling
-- Basic Python Arithmetic
+- Streamlit UI & Chat Interface
+- Google Gemini API Integration
+- Prompt Engineering & AI Personalities
+- Session State Management
+- Environment Variables & API Key Security
+- Error Handling
+
+---
+
+*Built as part of the MirAI School of Technology Virtual Summer Internship 2026.*
+

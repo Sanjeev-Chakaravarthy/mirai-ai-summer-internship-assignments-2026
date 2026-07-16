@@ -1,4 +1,2 @@
-Python
-Streamlit
-google-genai
-python-dotenv
+streamlit
+requests

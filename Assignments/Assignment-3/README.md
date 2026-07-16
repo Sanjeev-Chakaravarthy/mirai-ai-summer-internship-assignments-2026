@@ -1,25 +1,21 @@
-# Assignment 3 - The AI Multiverse
+# Assignment 4 - The Memory Vault (Stateful Chatbot)
 
 ## Objective
 
-Build an AI-powered chatbot application that:
-
-- Lets users chat with different AI personalities
-- Maintains conversation history within a session
-- Integrates with the Google Gemini API
-- Manages API keys securely using environment variables
+Upgrade the AI Multiverse Chatbot from a **stateless** app (forgets everything on rerun) to a **stateful** app (remembers full conversation history) using Streamlit's `st.session_state`.
 
 ---
 
 ## Features
 
+- ✅ Task 1: Memory Vault initialized using `st.session_state`
+- ✅ Task 2: Chat history rendered on every rerun
+- ✅ Task 3: Native `st.chat_input()` replaces old text input + button
+- ✅ Task 4: User & AI messages saved to session state after every exchange
 - ✅ Multiple AI Personalities (Yoda, Deadpool, Jack Sparrow, Comedian, Sherlock)
-- ✅ Persistent Conversation History (within session)
-- ✅ Sidebar for Personality Selection
 - ✅ Clear Conversation Button
-- ✅ Secure API Key Management via `.env`
+- ✅ Secure API Key via `.env`
 - ✅ Error Handling for API Failures
-- ✅ Clean Streamlit Chat Interface
 
 ---
 
@@ -35,9 +31,9 @@ Build an AI-powered chatbot application that:
 ## Project Structure
 
 ```text
-Assignment-3/
+Assignment-4/
 │
-├── assignment2.py
+├── app.py
 ├── requirements.txt
 ├── README.md
 ├── .env
@@ -48,22 +44,22 @@ Assignment-3/
 
 ## How to Run
 
-1. Install the required packages
+1. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Create a `.env` file in the project folder
+2. Create a `.env` file
 
 ```env
 GEMINI_API_KEY=YOUR_API_KEY_HERE
 ```
 
-3. Run the application
+3. Run the app
 
 ```bash
-streamlit run assignment2.py
+streamlit run app.py
 ```
 
 ---
@@ -72,30 +68,28 @@ streamlit run assignment2.py
 
 ### 🏠 Home Screen
 
-Displays the initial chat interface with the personality selector in the sidebar.
+Displays the initial chat interface with personality selector in the sidebar.
 
 ![Home Screen](screenshots/home.png)
 
 ---
 
-### 💬 Conversation Example
+### 💬 Multi-turn Conversation
 
-Shows an active conversation with one of the AI personalities.
+Shows the chatbot remembering previous messages across multiple turns.
 
 ![Conversation](screenshots/chat.png)
 
 ---
 
-## Concepts Covered
+## Key Concepts
 
-- Streamlit UI & Chat Interface
-- Google Gemini API Integration
-- Prompt Engineering & AI Personalities
-- Session State Management
-- Environment Variables & API Key Security
-- Error Handling
+- `st.session_state` — persists data across reruns (The Memory Vault)
+- `st.chat_input()` — native Streamlit chat input with walrus operator (`:=`)
+- `st.chat_message()` — renders user/assistant bubbles
+- Stateful vs Stateless apps
+- Prompt Engineering with AI Personalities
 
 ---
 
 *Built as part of the MirAI School of Technology Virtual Summer Internship 2026.*
-
