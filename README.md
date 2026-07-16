@@ -13,8 +13,8 @@ mirai-ai-summer-internship-2026/
 │
 ├── Assignments/
 │   ├── Assignment-1/   → The Identity Echo Interface
-│   ├── Assignment-2/   → My First Streamlit Calculator
-│   ├── Assignment-3/   → The AI Multiverse Chatbot
+│   ├── Assignment-2/   → The AI Multiverse Chatbot
+│   ├── Assignment-3/   → The Memory Vault
 │   ├── Assignment-4/   → AI Image Studio
 │   └── Assignment-calculator/ → Calculator project archive
 └── README.md
@@ -34,8 +34,8 @@ Each assignment is organized in its own folder and contains:
 | Assignment | Title | Technologies | Status |
 |:----------:|---------------------------------------|--------------------------------|:------:|
 | 01 | The Identity Echo Interface | Python, Streamlit | ✅ |
-| 02 | My First Streamlit Calculator | Python, Streamlit | ✅ |
-| 03 | The AI Multiverse Chatbot | Python, Streamlit, Gemini API | ✅ |
+| 02 | The AI Multiverse Chatbot | Python, Streamlit, Gemini API | ✅ |
+| 03 | The Memory Vault | Python, Streamlit, Gemini API | ✅ |
 | 04 | AI Image Studio | Python, Streamlit, Requests, Pollinations API | ✅ |
 | 05 | Coming Soon | — | ⏳ |
 | Final Project | AI Builder Project | — | ⏳ |

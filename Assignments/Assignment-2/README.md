@@ -1,4 +1,4 @@
-# Assignment 3 - The AI Multiverse
+# Assignment 2 - The AI Multiverse
 
 ## Objective
 
@@ -35,7 +35,7 @@ Build an AI-powered chatbot application that:
 ## Project Structure
 
 ```text
-Assignment-3/
+Assignment-2/
 │
 ├── assignment2.py
 ├── requirements.txt
