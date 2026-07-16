@@ -1,8 +1,8 @@
 # 🚀 MirAI AI Summer Internship 2026
 
-This repository contains all the assignments completed during the **MirAI School of Technology – AI Summer Internship 2026 (AI Builder Track)**.
+This repository contains the assignments completed during the **MirAI School of Technology – AI Summer Internship 2026 (AI Builder Track)**.
 
-Throughout this internship, I explore the fundamentals of Artificial Intelligence, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Streamlit, AI APIs, and practical AI application development.
+Throughout this internship, I explored the fundamentals of Artificial Intelligence, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Streamlit, AI APIs, and practical AI application development.
 
 ---
 
@@ -15,7 +15,8 @@ mirai-ai-summer-internship-2026/
 │   ├── Assignment-1/   → The Identity Echo Interface
 │   ├── Assignment-2/   → My First Streamlit Calculator
 │   ├── Assignment-3/   → The AI Multiverse Chatbot
-│   └── Assignment-4/   → The Memory Vault (Stateful Chatbot)
+│   ├── Assignment-4/   → AI Image Studio
+│   └── Assignment-calculator/ → Calculator project archive
 └── README.md
 ```
 
@@ -24,17 +25,18 @@ Each assignment is organized in its own folder and contains:
 - Assignment-specific README
 - Screenshots
 - Dependencies (`requirements.txt`)
+- Demo assets where applicable
 
 ---
 
 ## 📝 Assignments
 
 | Assignment | Title | Technologies | Status |
-|:----------:|---------------------------------------|-------------------------------|:------:|
+|:----------:|---------------------------------------|--------------------------------|:------:|
 | 01 | The Identity Echo Interface | Python, Streamlit | ✅ |
 | 02 | My First Streamlit Calculator | Python, Streamlit | ✅ |
 | 03 | The AI Multiverse Chatbot | Python, Streamlit, Gemini API | ✅ |
-| 04 | The Memory Vault (Stateful Chatbot) | Python, Streamlit, Gemini API | ✅ |
+| 04 | AI Image Studio | Python, Streamlit, Requests, Pollinations API | ✅ |
 | 05 | Coming Soon | — | ⏳ |
 | Final Project | AI Builder Project | — | ⏳ |
 
@@ -45,6 +47,8 @@ Each assignment is organized in its own folder and contains:
 - Python
 - Streamlit
 - Google Gemini API (`google-genai`)
+- Pollinations AI API
+- Requests
 - python-dotenv
 - Git & GitHub
 
@@ -63,6 +67,8 @@ Each assignment is organized in its own folder and contains:
 - Streamlit & Session State
 - Prompt Engineering
 - Stateful vs Stateless Applications
+- Image Generation Workflows
+- REST API Integration
 - AI Application Development
 
 ---

@@ -1,15 +1,15 @@
-# 🎨 AI Image Studio
+# 🎨 Assignment 4 - AI Image Studio
 
-A simple AI-powered image generation web application built with **Streamlit** and the **Pollinations AI API**. Users can describe an image, customize the art style and dimensions, and generate AI-created artwork in seconds.
+AI Image Studio is a simple AI-powered image generation web application built with **Streamlit** and the **Pollinations AI API**. Users can describe an image, customize the art style and dimensions, and generate artwork in seconds.
 
 ## Features
 
-- 🎨 Generate AI images from text prompts
-- 🖌️ Choose from multiple art styles
-- 📐 Customize image width and height
-- ✨ Magic Enhance mode for richer prompts
-- 🎲 Surprise Me feature with random creative prompts
-- 📥 Download generated images as PNG files
+- Generate AI images from text prompts
+- Choose from multiple art styles
+- Customize image width and height
+- Enable Magic Enhance mode for richer prompts
+- Use Surprise Me for a random creative prompt
+- Download generated images as PNG files
 
 ## Tech Stack
 
@@ -22,13 +22,23 @@ A simple AI-powered image generation web application built with **Streamlit** an
 
 ```text
 .
-├── app.py
+├── assignment4.py
+├── requirements.txt
+├── demo/
+│   └── demo-video
 └── README.md
+```
+
+## Run Locally
+
+```bash
+pip install -r requirements.txt
+python3 -m streamlit run assignment4.py
 ```
 
 ## Demo
 
-*A short demonstration video of the application is included with the assignment submission.*
+A short demonstration video of the application is included in the `demo/` folder.
 
 ## What I Learned
 
