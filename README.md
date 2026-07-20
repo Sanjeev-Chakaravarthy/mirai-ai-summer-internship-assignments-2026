@@ -1,8 +1,8 @@
 # 🚀 MirAI AI Summer Internship 2026
 
-This repository contains the assignments completed during the **MirAI School of Technology – AI Summer Internship 2026 (AI Builder Track)**.
+This repository contains all the assignments completed during the **MirAI School of Technology – AI Summer Internship 2026 (AI Builder Track)**.
 
-Throughout this internship, I explored the fundamentals of Artificial Intelligence, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Streamlit, AI APIs, and practical AI application development.
+Throughout this internship, I explore the fundamentals of Artificial Intelligence, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Multi-Modal AI (Text, Image, Audio), Streamlit, AI APIs, and practical AI application development.
 
 ---
 
@@ -12,10 +12,11 @@ Throughout this internship, I explored the fundamentals of Artificial Intelligen
 mirai-ai-summer-internship-2026/
 │
 ├── Assignments/
-│   ├── Assignment-1/   → The Identity Echo Interface
-│   ├── Assignment-2/   → The AI Multiverse Chatbot
-│   ├── Assignment-3/   → The Memory Vault
-│   ├── Assignment-4/   → AI Image Studio
+│   ├── Assignment-1/   → The Identity Echo Interface (UI, validation & token estimation)
+│   ├── Assignment-2/   → The AI Multiverse Chatbot (Multi-personality AI chat)
+│   ├── Assignment-3/   → The Memory Vault (Stateful chatbot using session state)
+│   ├── Assignment-4/   → AI Image Studio (Text-to-image generation via Pollinations AI)
+│   ├── Assignment-5/   → StoryVerse (Multi-modal AI-Powered Visual Novel)
 │   └── Assignment-calculator/ → Calculator project archive
 └── README.md
 ```
@@ -23,60 +24,55 @@ mirai-ai-summer-internship-2026/
 Each assignment is organized in its own folder and contains:
 - Source Code
 - Assignment-specific README
-- Screenshots
+- Screenshots / Demo assets
 - Dependencies (`requirements.txt`)
-- Demo assets where applicable
 
 ---
 
-## 📝 Assignments
+## 📝 Assignments Overview
 
-| Assignment | Title | Technologies | Status |
-|:----------:|---------------------------------------|--------------------------------|:------:|
-| 01 | The Identity Echo Interface | Python, Streamlit | ✅ |
-| 02 | The AI Multiverse Chatbot | Python, Streamlit, Gemini API | ✅ |
-| 03 | The Memory Vault | Python, Streamlit, Gemini API | ✅ |
-| 04 | AI Image Studio | Python, Streamlit, Requests, Pollinations API | ✅ |
-| 05 | Coming Soon | — | ⏳ |
-| Final Project | AI Builder Project | — | ⏳ |
+| Assignment | Title | Key Technologies | Status |
+|:----------:|---------------------------------------|-------------------------------------------|:------:|
+| **01** | **The Identity Echo Interface** | Python, Streamlit | ✅ |
+| **02** | **The AI Multiverse Chatbot** | Python, Streamlit, Gemini API | ✅ |
+| **03** | **The Memory Vault** | Python, Streamlit, Session State, Gemini API | ✅ |
+| **04** | **AI Image Studio** | Python, Streamlit, Pollinations AI API | ✅ |
+| **05** | **StoryVerse — AI Visual Novel** | Python, Streamlit, Gemini API, Pollinations AI, Edge TTS | ✅ |
+| **Final Project** | **AI Builder Project** | — | ⏳ |
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python
-- Streamlit
-- Google Gemini API (`google-genai`)
-- Pollinations AI API
-- Requests
-- python-dotenv
-- Git & GitHub
+- **Programming Language**: Python 3.9+
+- **Frontend / Web UI**: Streamlit
+- **LLM APIs**: Google Gemini API (`google-genai` SDK)
+- **Image Generation**: Pollinations AI API
+- **Text-to-Speech**: Microsoft Edge Neural TTS (`edge_tts`)
+- **HTTP & Async**: Requests, Asyncio, Json
+- **Environment Management**: `python-dotenv`
+- **Version Control**: Git & GitHub
 
 ---
 
 ## 🎯 Internship Learning Areas
 
-- Artificial Intelligence (AI)
-- Large Language Models (LLMs)
-- Tokens & Tokenization
-- Context Window
-- Hallucination
-- Cloud Computing
-- APIs & API Keys
-- Retrieval-Augmented Generation (RAG)
-- Streamlit & Session State
-- Prompt Engineering
-- Stateful vs Stateless Applications
-- Image Generation Workflows
-- REST API Integration
-- AI Application Development
+- Artificial Intelligence (AI) & Large Language Models (LLMs)
+- Prompt Engineering & Structured JSON Outputs
+- Multi-Modal AI Integration (Text + Image + Audio)
+- Tokens, Tokenization & Context Windows
+- Cloud Computing & Secure API Key Management
+- Streamlit UI Development & Asynchronous Operations
+- Stateful vs Stateless Applications (`st.session_state`)
+- Dynamic UI Generation & Exception Handling
+- AI Application Development & End-to-End Delivery
 
 ---
 
 ## 📌 About
 
-This repository serves as a record of my hands-on work completed during the MirAI AI Summer Internship 2026. Each assignment demonstrates the concepts learned throughout the program and my progress in building AI-powered applications.
+This repository serves as a record of my hands-on work completed during the **MirAI School of Technology AI Summer Internship 2026**. Each assignment demonstrates the core concepts learned throughout the program and my progress in building cutting-edge AI-powered applications.
 
 ---
 
-⭐ If you find this repository helpful, feel free to explore the assignments.
+⭐ Feel free to explore each assignment folder for individual setup guides, code, and demonstrations!
