@@ -17,6 +17,8 @@ mirai-ai-summer-internship-2026/
 │   ├── Assignment-3/   → The Memory Vault (Stateful chatbot using session state)
 │   ├── Assignment-4/   → AI Image Studio (Text-to-image generation via Pollinations AI)
 │   ├── Assignment-5/   → StoryVerse (Multi-modal AI-Powered Visual Novel)
+│   ├── Assignment-6/   → Professional GitHub Profile README
+│   ├── Assignment-7/   → ScreenSense AI (Digital Wellbeing Dashboard)
 │   └── Assignment-calculator/ → Calculator project archive
 └── README.md
 ```
@@ -38,6 +40,8 @@ Each assignment is organized in its own folder and contains:
 | **03** | **The Memory Vault** | Python, Streamlit, Session State, Gemini API | ✅ |
 | **04** | **AI Image Studio** | Python, Streamlit, Pollinations AI API | ✅ |
 | **05** | **StoryVerse — AI Visual Novel** | Python, Streamlit, Gemini API, Pollinations AI, Edge TTS | ✅ |
+| **06** | **GitHub Profile README** | Markdown, HTML, SVG, GitHub Actions | ✅ |
+| **07** | **ScreenSense AI** | Python, Streamlit, Pandas, Gemini API, Pollinations AI | ✅ |
 | **Final Project** | **AI Builder Project** | — | ⏳ |
 
 ---
@@ -45,12 +49,14 @@ Each assignment is organized in its own folder and contains:
 ## 🛠️ Technologies Used
 
 - **Programming Language**: Python 3.9+
+- **Data Analysis**: Pandas, CSV
 - **Frontend / Web UI**: Streamlit
 - **LLM APIs**: Google Gemini API (`google-genai` SDK)
 - **Image Generation**: Pollinations AI API
 - **Text-to-Speech**: Microsoft Edge Neural TTS (`edge_tts`)
 - **HTTP & Async**: Requests, Asyncio, Json
 - **Environment Management**: `python-dotenv`
+- **Automation & Profiling**: GitHub Actions, SVG animations, Markdown
 - **Version Control**: Git & GitHub
 
 ---
@@ -64,6 +70,8 @@ Each assignment is organized in its own folder and contains:
 - Cloud Computing & Secure API Key Management
 - Streamlit UI Development & Asynchronous Operations
 - Stateful vs Stateless Applications (`st.session_state`)
+- Data analysis & visualization dashboards using Pandas
+- Advanced Developer Profile Optimization & GitHub Actions automation
 - Dynamic UI Generation & Exception Handling
 - AI Application Development & End-to-End Delivery
 
