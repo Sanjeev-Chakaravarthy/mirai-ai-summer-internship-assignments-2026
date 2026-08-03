@@ -1,119 +1,102 @@
-<div align="center">
+# Hi 👋, I'm Sanjeev Chakaravarthy
 
-# 🖥️ Assignment 6
-## Professional GitHub Profile README
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=39FF14&width=435&lines=Building+Real-World+Scalable+Products;Full-Stack+Developer+(MERN);Problem+Solver" alt="Typing SVG" />
+</p>
 
-*A terminal-inspired GitHub profile designed to showcase projects, technical skills, and my engineering journey.*
-
-</div>
-
----
-
-## 📖 Overview
-
-This assignment focused on designing a professional GitHub Profile README that goes beyond a traditional profile page.
-
-The objective was to create a profile that presents my work, technical skills, and projects in a visually engaging way while maintaining a clean, developer-focused aesthetic.
-
-Unlike a normal project README, this README powers my actual GitHub profile.
+## 🚀 About Me
+- 🎓 **B.Tech CSE (Software Product Engineering)** — LPU x Kalvium
+- 💻 **Frontend-strong Full-Stack Developer (MERN)**
+- 🎨 Passionate about building clean, responsive & user-friendly interfaces
+- 🔧 Experienced in backend systems & API design
+- 🌱 Currently exploring Go, Redis, and Distributed Systems
 
 ---
 
-## ✨ Features
+## 🏢 Experience & Product Work
 
-- 🖥️ Terminal-inspired hero section
-- ⌨️ Animated typing banner
-- 👋 Personal introduction
-- 🛠️ Interactive technology stack
-- 📂 Featured projects section (WiBuilt, PG Finder, Skillfinix)
-- 📊 Live GitHub statistics
-- 🐍 Contribution snake animation
-- 📈 Activity graph
-- 📱 Responsive layout
-- 🔗 Social links
-- 🎨 Custom SVG graphics
-- ⚡ GitHub Actions automation
+### 🚀 **WiBuilt** *(Startup Project)*
+- 🔗 [wibuilt.com](https://wibuilt.com)
+- Building simple, practical digital solutions for schools to streamline operations and improve communication.
+- Designing intuitive frontend interfaces for real users.
+- Developing scalable backend systems & APIs.
+- Working on full-stack architecture & deployment.
+- Focused on performance, usability & real-world impact.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Key Projects
 
-- Markdown
-- HTML
-- CSS Styling inside Markdown
-- Shields.io
-- Readme Typing SVG
-- GitHub Readme Stats
-- GitHub Profile Summary Cards
-- GitHub Readme Activity Graph
-- Skill Icons
-- GitHub Actions
+### 🏠 **PG Finder**
+- 🔗 [Live Demo](https://pg-finder-pink.vercel.app)
+- Full-stack platform to help students find PG accommodations based on budget and location.
+- Built responsive UI using **React + Tailwind CSS**.
+- Designed user-friendly filtering & search experience.
+- Integrated REST APIs with **MongoDB** backend.
+- Focused on UX, performance, and scalability.
 
----
-
-## 📸 Screenshots
-
-### Hero Section
-
-![Hero](screenshots/hero-section.png)
+### 🔁 **Skillfinix** *(Ongoing)*
+- 🔗 [Live Demo](https://skillfinix.vercel.app)
+- Peer-to-peer skill exchange platform with real-time communication.
+- Building modern UI with real-time interactions.
+- Implementing chat, video calls, and authentication.
+- Utilizing **Socket.IO, WebRTC, and JWT**.
+- Focused on interactive UX and system performance.
 
 ---
 
-### Development Environment
+## 🛠️ Tech Stack
 
-![Development Environment](screenshots/development-environment.png)
-
----
-
-### GitHub Dashboard
-
-![Dashboard](screenshots/github-dashboard.png)
-
----
-
-## 📂 Repository Structure
-
-```text
-Sanjeev-Chakaravarthy/
-│
-├── README.md
-├── assets/
-└── .github/
-    └── workflows/
-```
+| Category | Technologies |
+|---|---|
+| **Languages** | JavaScript • Python • C++ • Java • Go *(Learning)* |
+| **Frontend** | React • Redux • Tailwind CSS • HTML • CSS |
+| **Backend & DB** | Node.js • Express.js • MongoDB • REST APIs • Redis *(Learning)* |
+| **Tools & Systems** | Git • GitHub • Linux • Postman • Docker *(Learning)* |
 
 ---
 
-## 🚀 Live Profile
+## 📊 GitHub Stats
 
-👉 https://github.com/Sanjeev-Chakaravarthy
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Sanjeev-Chakaravarthy&show_icons=true&theme=dark&rank_icon=github&border_radius=10" alt="Sanjeev's GitHub Stats" />
+</p>
 
----
-
-## 💻 Source Repository
-
-👉 https://github.com/Sanjeev-Chakaravarthy/Sanjeev-Chakaravarthy
-
----
-
-## 📚 What I Learned
-
-During this assignment I learned:
-
-- Advanced Markdown formatting
-- GitHub profile customization
-- SVG animations
-- GitHub Actions
-- Dynamic GitHub widgets
-- Organizing a professional developer profile
-- Designing developer-focused documentation
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sanjeev-Chakaravarthy&theme=dark&border_radius=10" alt="GitHub Streak Stats" />
+</p>
 
 ---
 
-## 🎯 Outcome
-
-The final result is a fully customized GitHub Profile README that serves as a portfolio homepage and provides visitors with an engaging overview of my projects, skills, and development journey.
+## 🎯 Current Focus
+- Frontend Architecture & Performance Optimization
+- Backend Engineering & API Design
+- Redis (Caching, Pub/Sub, Performance)
+- Go for Systems Programming
+- Distributed Systems & Observability
+- Open Source Contributions (LFX Ready)
 
 ---
 
-*Developed for the MirAI School of Technology Virtual Summer Internship 2026.*
+## 🏆 Achievements
+- 🥈 **Runner-up** — Code-A-Hunt 2.0 (LPU)
+- 🎓 **Kalvium Industry Program Scholar**
+
+---
+
+## 📸 Assignment Deliverables & Screenshots
+*(This documentation represents Assignment 6 of the MirAI School of Technology Virtual Summer Internship 2026)*
+
+### 1. Hero Section Preview
+![Hero Section](screenshots/hero-section.png)
+
+### 2. Projects & Experience Preview
+![Projects Section](screenshots/development-environment.png)
+
+### 3. GitHub Stats Preview
+![Stats Section](screenshots/github-dashboard.png)
+
+---
+
+## 🌍 Connect With Me
+*Designing smooth user experiences • Building scalable systems • Shipping real products 🚀*
