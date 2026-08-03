@@ -1,4 +1,5 @@
 # TASK 1
+import utils.session
 import streamlit as st
 
 st.title("The Identity Echo")
