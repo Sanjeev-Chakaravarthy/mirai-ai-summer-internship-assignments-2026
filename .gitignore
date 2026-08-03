@@ -1,5 +1,4 @@
 # Environment variables - never commit these
-.env
 *.env
 
 # macOS system files
@@ -10,3 +9,5 @@
 __pycache__/
 *.pyc
 *.pyo
+config.bat
+node_modules
